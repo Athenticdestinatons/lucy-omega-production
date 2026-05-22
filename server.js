@@ -78,6 +78,6 @@ app.get('/memory', async (req, res) => {
   res.json(MEMORY);
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Lucy Ω production server running on port ${PORT}`);
 });
